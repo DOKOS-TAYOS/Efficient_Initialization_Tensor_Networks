@@ -31,7 +31,7 @@ The core of this method is the use of the Frobenius norm and the partial lineal 
 Install required Python packages:
 
 ```bash
-pip install numpy torch
+pip install numpy tensorkrowch torch
 ```
 
 Then, open and run the notebook:
