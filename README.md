@@ -2,15 +2,13 @@
 
 This repository contains the implementation and supplementary material for the paper:
 
-> **Efficient Finite Initialization for Tensorized Neural Networks**
+> **Efficient Finite Initialization with Partial Norms for Tensorized Neural Networks and Tensor Networks Algorithms**
 > Alejandro Mata Ali, Iñigo Perez Delgado, Marina Ristol Roura, Aitor Moreno Fdez. de Leceta
 > [arXiv:2309.06577](https://arxiv.org/abs/2309.06577)
 
 ## Abstract
 
-We present a novel method for initializing layers of tensorized neural networks in a way that avoids the explosion or vanishing of the parameters of the matrix they emulate. The method is intended for layers with a high number of nodes, we do not desire to store/calculate all the elements of the represented layer, and it follows a smooth distribution. This method is equally applicable to normalize general tensor networks in which we want to avoid overflows.
-
-The core of this method is the use of the Frobenius norm and the partial lineal entrywise norm of reduced forms of the layer in an iterative partial form, so that it has to be finite and within a certain range. These norms are efficient to compute, fully or partially, for most cases of interest. In addition, the method benefits from the reuse of intermediate calculations. We apply the method to different layers and check its performance. All code is publicly available.
+We present two algorithms to initialize layers of tensorized neural networks and general tensor network algorithms using partial computations of their Frobenius norms and lineal entrywise norms, depending on the type of tensor network involved. The core of this method is the use of the norm of subnetworks of the tensor network in an iterative way, so that we normalize by the finite values of the norms that led to the divergence or zero norm. In addition, the method benefits from the reuse of intermediate calculations. We have also applied it to the Matrix Product State/Tensor Train (MPS/TT) and Matrix Product Operator/Tensor Train Matrix (MPO/TT-M) layers and have seen its scaling versus the number of nodes, bond dimension, and physical dimension. All code is publicly available.
 
 ## Contents
 
