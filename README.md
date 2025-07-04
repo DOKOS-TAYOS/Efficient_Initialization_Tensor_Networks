@@ -1,4 +1,4 @@
-# Efficient Finite Initialization for Tensorized Neural Networks
+# Efficient Finite Initialization with Partial Norms for Tensorized Neural Networks and Tensor Networks Algorithms
 
 This repository contains the implementation and supplementary material for the paper:
 
