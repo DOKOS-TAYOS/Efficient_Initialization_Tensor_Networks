@@ -6,6 +6,8 @@ This repository contains the implementation and supplementary material for the p
 > Alejandro Mata Ali, Iñigo Perez Delgado, Marina Ristol Roura, Aitor Moreno Fdez. de Leceta
 > [arXiv:2309.06577](https://arxiv.org/abs/2309.06577)
 
+An interactive demo is available in the streamlit webpage [https://efficient-initialization-tensor-networks.streamlit.app/](https://efficient-initialization-tensor-networks.streamlit.app/)
+
 ## Abstract
 
 We present two algorithms to initialize layers of tensorized neural networks and general tensor network algorithms using partial computations of their Frobenius norms and lineal entrywise norms, depending on the type of tensor network involved. The core of this method is the use of the norm of subnetworks of the tensor network in an iterative way, so that we normalize by the finite values of the norms that led to the divergence or zero norm. In addition, the method benefits from the reuse of intermediate calculations. We have also applied it to the Matrix Product State/Tensor Train (MPS/TT) and Matrix Product Operator/Tensor Train Matrix (MPO/TT-M) layers and have seen its scaling versus the number of nodes, bond dimension, and physical dimension. All code is publicly available.
