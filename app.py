@@ -19,7 +19,7 @@ with left_col:
     st.title("Tensor Network Initializer 🔄")
     st.markdown("""
 This application implements efficient initialization methods for tensor network layers using partial norm computations, 
-as described in the paper [Efficient Finite Initialization with Partial Norms for Tensorized Neural Networks and Tensor Networks Algorithms](https://arxiv.org/abs/2309.06577) by Alejandro Mata Ali et al.
+as described in the paper [Efficient Finite Initialization with Partial Norms for Tensorized Neural Networks and Tensor Networks Algorithms](https://arxiv.org/abs/2309.06577) by Alejandro Mata Ali et al. The code is available on [GitHub](https://github.com/DOKOS-TAYOS/Efficient_Initialization_Tensor_Networks).
 
 The method uses partial computations of Frobenius or linear entrywise norms in an iterative way to normalize tensor networks. 
 Key features:
@@ -249,4 +249,5 @@ with right_col:
                                 st.pyplot(fig)
                                 plt.close()
             except Exception as e:
+
                 st.error(f"An error occurred ❌: {str(e)}")
