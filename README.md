@@ -46,26 +46,29 @@ The notebook provides modular functions to initialize and normalize tensor netwo
 
 ## Citation
 
-If you use this work, please cite:
+If you use this work, please cite (see also [`CITATION.cff`](CITATION.cff)):
 
 ```bibtex
 @article{mata2023efficient,
-  title={Efficient Finite Initialization for Tensorized Neural Networks},
+  title={Efficient Finite Initialization with Partial Norms for Tensorized Neural Networks and Tensor Networks Algorithms},
   author={Mata Ali, Alejandro and Perez Delgado, I\~nigo and Ristol Roura, Marina and Moreno Fdez. de Leceta, Aitor},
   journal={arXiv preprint arXiv:2309.06577},
-  year={2023}
+  year={2023},
+  eprint={2309.06577},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2309.06577}
 }
 ```
 
 ## License
 
+Source code in this repository is released under the [MIT License](LICENSE).
 
-This repository is released under the MIT License.
+The preprint PDF (`Efficient_Finite_Initialization_for_Tensorized_Neural_Networks.pdf`) and the files under `figures/` are paper materials for [arXiv:2309.06577](https://arxiv.org/abs/2309.06577); they are **not** licensed under MIT. See [`NOTICE`](NOTICE) for that distinction and for third-party dependency notices.
 
 ## Contact
 
 For questions or collaborations, contact:
 **Alejandro Mata Ali**
 `alejandro.mata.ali@gmail.com`
-
----

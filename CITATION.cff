@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: If you use this software or the associated paper, please cite it using these metadata.
+title: "Efficient Finite Initialization with Partial Norms for Tensorized Neural Networks and Tensor Networks Algorithms"
+type: software
+authors:
+  - family-names: Mata Ali
+    given-names: Alejandro
+    email: alejandro.mata.ali@gmail.com
+  - family-names: Perez Delgado
+    given-names: Iñigo
+  - family-names: Ristol Roura
+    given-names: Marina
+  - family-names: Moreno Fdez. de Leceta
+    given-names: Aitor
+license: MIT
+repository-code: "https://github.com/DOKOS-TAYOS/Efficient_Initialization_Tensor_Networks"
+url: "https://arxiv.org/abs/2309.06577"
+abstract: >-
+  Two algorithms to initialize layers of tensorized neural networks and general
+  tensor network algorithms using partial computations of their Frobenius norms
+  and lineal entrywise norms, with applications to MPS/TT and MPO/TT-M layers.
+keywords:
+  - tensor networks
+  - tensorized neural networks
+  - initialization
+  - Frobenius norm
+  - Matrix Product State
+  - Tensor Train
+identifiers:
+  - type: other
+    value: "arXiv:2309.06577"
+    description: arXiv preprint identifier
+  - type: doi
+    value: 10.48550/arXiv.2309.06577
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Mata Ali
+      given-names: Alejandro
+    - family-names: Perez Delgado
+      given-names: Iñigo
+    - family-names: Ristol Roura
+      given-names: Marina
+    - family-names: Moreno Fdez. de Leceta
+      given-names: Aitor
+  title: "Efficient Finite Initialization with Partial Norms for Tensorized Neural Networks and Tensor Networks Algorithms"
+  year: 2023
+  doi: 10.48550/arXiv.2309.06577
+  url: "https://arxiv.org/abs/2309.06577"
+  identifiers:
+    - type: other
+      value: "arXiv:2309.06577"
+      description: arXiv preprint identifier

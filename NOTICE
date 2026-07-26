@@ -1,0 +1,36 @@
+Efficient_Initialization_Tensor_Networks
+Copyright (c) 2025 Alejandro Mata Ali
+
+Software license
+----------------
+Source code and software documentation in this repository are licensed under
+the MIT License. See the LICENSE file.
+
+Paper materials (not MIT)
+-------------------------
+The bundled preprint PDF
+(`Efficient_Finite_Initialization_for_Tensorized_Neural_Networks.pdf`) and the
+plots under `figures/` are scholarly paper materials accompanying
+arXiv:2309.06577. They are not licensed under the MIT License that covers the
+software. Treat them as copyrighted paper assets unless a separate grant says
+otherwise. Prefer citing the preprint (see CITATION.cff) rather than treating
+those files as redistributable MIT content.
+
+Third-party software
+--------------------
+Runtime Python dependencies declared in requirements.txt remain under their
+own upstream licenses and terms. They are not copied into this repository;
+they are installed separately. Installing them does not relicense this
+project's MIT source code. Review each dependency's license before
+redistribution.
+
+Key packages and typical licenses (verify with the installed package):
+
+  - NumPy — BSD-3-Clause (and related permissive notices)
+  - PyTorch (torch) — BSD-style (see the PyTorch project license notices)
+  - TensorKrowch (tensorkrowch) — MIT
+    (https://github.com/joserapa98/tensorkrowch)
+  - Streamlit — Apache-2.0
+  - matplotlib — matplotlib license (PSF-based / BSD-compatible terms)
+
+No third-party library source trees are vendored in this repository.
