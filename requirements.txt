@@ -2,4 +2,4 @@ streamlit>=1.60.0
 torch>=2.13.0
 numpy>=2.5.1
 tensorkrowch>=1.1.6
-matplotlib>=3.11.0
+matplotlib>=3.11.1
