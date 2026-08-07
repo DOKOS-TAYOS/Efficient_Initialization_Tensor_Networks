@@ -2,8 +2,8 @@ import math
 from pathlib import Path
 
 import pytest
-from streamlit.testing.v1 import AppTest
 import torch
+from streamlit.testing.v1 import AppTest
 
 from normalizer_module import MPO, MPS
 
