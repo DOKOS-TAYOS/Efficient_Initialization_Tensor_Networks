@@ -7,7 +7,6 @@ from streamlit.testing.v1 import AppTest
 
 from normalizer_module import MPO, MPS
 
-
 APP_PATH = Path(__file__).resolve().parents[1] / "app.py"
 
 
